@@ -1,0 +1,72 @@
+[
+  {
+    "type": "classification",
+    "content_id": "cba61af5-08bb-42d6-9def-9348e33d145c",
+    "creator_id": "ai-writer-01",
+    "timestamp": "2026-06-29T22:23:29.332Z",
+    "attribution": "likely_ai",
+    "confidence": 0.748,
+    "combined_p_ai": 0.823,
+    "signal_scores": {
+      "semantic": 0.801,
+      "structural": 0.811,
+      "lexical": 0.9
+    },
+    "signal_agreement": 0.901,
+    "semantic_source": "offline_fallback",
+    "label_headline": "Likely AI-generated",
+    "status": "classified"
+  },
+  {
+    "type": "classification",
+    "content_id": "10e87113-0692-477d-9f0a-d77e13af956c",
+    "creator_id": "human-writer-02",
+    "timestamp": "2026-06-29T22:23:29.334Z",
+    "attribution": "likely_human",
+    "confidence": 0.736,
+    "combined_p_ai": 0.195,
+    "signal_scores": {
+      "semantic": 0.223,
+      "structural": 0.171,
+      "lexical": 0.15
+    },
+    "signal_agreement": 0.927,
+    "semantic_source": "offline_fallback",
+    "label_headline": "Likely human-written",
+    "status": "classified"
+  },
+  {
+    "type": "classification",
+    "content_id": "e8484b45-bbdf-4820-9551-09273044b536",
+    "creator_id": "formal-writer-03",
+    "timestamp": "2026-06-29T22:23:29.336Z",
+    "attribution": "uncertain",
+    "confidence": 0.501,
+    "combined_p_ai": 0.688,
+    "signal_scores": {
+      "semantic": 0.7,
+      "structural": 0.811,
+      "lexical": 0.5
+    },
+    "signal_agreement": 0.689,
+    "semantic_source": "offline_fallback",
+    "label_headline": "Attribution uncertain",
+    "status": "classified"
+  },
+  {
+    "type": "appeal",
+    "content_id": "e8484b45-bbdf-4820-9551-09273044b536",
+    "creator_id": "formal-writer-03",
+    "timestamp": "2026-06-29T22:23:29.337Z",
+    "creator_reasoning": "I wrote this myself. I am a non-native English speaker; my register is formal, which the detector seems to misread as AI.",
+    "original_attribution": "uncertain",
+    "original_confidence": 0.501,
+    "original_combined_p_ai": 0.688,
+    "original_signal_scores": {
+      "semantic": 0.7,
+      "structural": 0.811,
+      "lexical": 0.5
+    },
+    "status": "under_review"
+  }
+]
